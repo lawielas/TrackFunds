@@ -26,7 +26,7 @@ export default function signup() {
         placeholder="Confirm Password"
         secureTextEntry={true}
       />
-      <Link href='/signup' style={styles.signupButton}>
+      <Link href='/(tabs)/home' style={styles.signupButton}>
         Sign up
       </Link>
     </KeyboardAvoidingView>

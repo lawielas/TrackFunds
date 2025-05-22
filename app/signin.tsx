@@ -18,7 +18,7 @@ export default function signin() {
         placeholder="Password"
         secureTextEntry={true}
       />
-      <Link href='/signup' style={styles.signupButton}>
+      <Link href='/(tabs)/home' style={styles.signupButton}>
         Sign in
       </Link>
     </KeyboardAvoidingView>
