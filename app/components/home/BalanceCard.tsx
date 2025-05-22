@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: '#264169',
         borderRadius: 10,
-        gap: 10,
+        gap: 15,
         padding: 15
     },
     background: {

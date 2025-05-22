@@ -1,4 +1,5 @@
 import { StyleSheet, View } from "react-native";
+import Activity from "../components/home/Activity";
 import BalanceCard from "../components/home/BalanceCard";
 import NavBar from '../components/home/NavBar';
 
@@ -7,6 +8,7 @@ export default function home() {
     <View style={styles.container}>
         <NavBar />
         <BalanceCard />
+        <Activity />
     </View>
   )
 }
